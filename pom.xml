@@ -13,8 +13,10 @@
 	<artifactId>spring-boot-mvc-crud</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
+	
 	<name>spring-boot-mvc-crud</name>
 	<description>Spring boot mvc crud operation example without database</description>
+	
 	<url />
 	<licenses>
 		<license />
@@ -83,6 +85,7 @@
 	</dependencies>
 
 	<build>
+	 <finalName>spring-boot-mvc-crud</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
